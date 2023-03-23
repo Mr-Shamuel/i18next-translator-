@@ -20,8 +20,8 @@ function App() {
 
       <div className="container ">
 
-      <h1>Translator 2.0</h1>
-      <Form.Select size="lg" className="w-50 mx-auto" onChange={handleClick}>
+      <h1 className="text-danger text-center py-2">Translator 2.0</h1>
+      <Form.Select size="lg" className="w-50 mx-auto    " onChange={handleClick}>
         <option>Select Language</option>
         <option value={"en"}>English</option>s
         <option value={"hi"}>Hindi</option>
